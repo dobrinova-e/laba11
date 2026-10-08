@@ -22,7 +22,7 @@ input[type="radio"] {
   padding: 0 25px;
 }
 
-/* ---------- фільтр через :checked ---------- */
+/*  фільтр через :checked  */
 #f-pyrih:checked ~ .page .card:not(.pyrih),
 #f-rulet:checked ~ .page .card:not(.rulet),
 #f-syrnyky:checked ~ .page .card:not(.syrnyky),
@@ -31,7 +31,7 @@ input[type="radio"] {
   display: none;
 }
 
-/* ---------- MOBILE (базові стилі) ---------- */
+/*  MOBILE (базові стилі)  */
 header h1 {
   text-align: center;
   font-weight: 400;
@@ -124,7 +124,7 @@ footer a {
   margin-right: 3px;
 }
 
-/* ---------- TABLET 730 - 1200 ---------- */
+/*  TABLET 730 - 1200  */
 @media (min-width: 731px) {
   header h1 {
     font-size: 54px;
@@ -187,7 +187,7 @@ footer a {
   }
 }
 
-/* ---------- DESKTOP > 1200 ---------- */
+/*  DESKTOP > 1200  */
 @media (min-width: 1201px) {
   header h1 {
     font-size: 52px;
