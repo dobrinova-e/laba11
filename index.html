@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тортики & Тістечка</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- радіокнопки для фільтра (без JS), мають стояти перед .page -->
+  <input type="radio" name="filter" id="f-all" checked>
+  <input type="radio" name="filter" id="f-pyrih">
+  <input type="radio" name="filter" id="f-rulet">
+  <input type="radio" name="filter" id="f-syrnyky">
+  <input type="radio" name="filter" id="f-tistechko">
+  <input type="radio" name="filter" id="f-tort">
+
+  <div class="page">
+    <header>
+      <h1>Тортики <span class="amp">&amp;</span> Тістечка</h1>
+    </header>
+
+    <div class="layout">
+      <main class="gallery">
+
+        <article class="card tort">
+          <div class="top">
+            <img src="img/smetankovyi.jpg" alt="Сметанковий торт">
+            <p class="title"><span>Торт:</span> <b>Сметанковий</b></p>
+          </div>
+          <p class="kcal">Калорії у порції 265 кКал</p>
+        </article>
+
+        <article class="card tistechko">
+          <div class="top">
+            <img src="img/mafin.jpg" alt="Мафін">
+            <p class="title"><span>Тістечко:</span> <b>Мафін</b></p>
+          </div>
+          <p class="kcal">Калорії у порції 305 кКал</p>
+        </article>
+
+        <article class="card syrnyky">
+          <div class="top">
+            <img src="img/syrnyky.jpg" alt="Сирники Три ягоди">
+            <p class="title"><span>Сирники:</span> <b>Три ягоди</b></p>
+          </div>
+          <p class="kcal">Калорії у порції 450 кКал</p>
+        </article>
+
+        <article class="card tort">
+          <div class="top">
+            <img src="img/smachnyi.jpg" alt="Смачний торт">
+            <p class="title"><span>Торт:</span> <b>Смачний</b></p>
+          </div>
+          <p class="kcal">Калорії у порції 523 кКал</p>
+        </article>
+
+        <article class="card rulet">
+          <div class="top">
+            <img src="img/svyatkovyi.jpg" alt="Святковий рулет">
+            <p class="title"><span>Рулет:</span> <b>Святковий</b></p>
+          </div>
+          <p class="kcal">Калорії у порції 380 кКал</p>
+        </article>
+
+        <article class="card pyrih">
+          <div class="top">
+            <img src="img/pyrih.jpg" alt="Пиріг Свято у бабусі">
+            <p class="title"><span>Пиріг:</span> <b>Свято у бабусі</b></p>
+          </div>
+          <p class="kcal">Калорії у порції 298 кКал</p>
+        </article>
+
+        <article class="card tort">
+          <div class="top">
+            <img src="img/vedmedyk.jpg" alt="Ведмедик">
+            <p class="title"><span>Торт:</span> <b>Ведмедик</b></p>
+          </div>
+          <p class="kcal">Калорії у порції 600 кКал</p>
+        </article>
+
+        <article class="card tistechko">
+          <div class="top">
+            <img src="img/kvity.jpg" alt="Живі квіти">
+            <p class="title"><span>Тістечко:</span> <b>Живі квіти</b></p>
+          </div>
+          <p class="kcal">Калорії у порції 438 кКал</p>
+        </article>
+
+        <article class="card tistechko">
+          <div class="top">
+            <img src="img/lymonne.jpg" alt="Лимонне з маком">
+            <p class="title"><span>Тістечко:</span> <b>Лимонне з маком</b></p>
+          </div>
+          <p class="kcal">Калорії у порції 348 кКал</p>
+        </article>
+
+      </main>
+
+      <aside class="filter">
+        <div class="calories">
+          <p>Калорії у порції</p>
+          <div class="slider">
+            <input type="range" min="0" max="800" value="0">
+            <input type="range" min="0" max="800" value="400">
+          </div>
+          <p class="range">Від 0 до 400 кКал</p>
+        </div>
+
+        <label for="f-pyrih" class="btn b-pyrih">Пиріг</label>
+        <label for="f-rulet" class="btn b-rulet">Рулет</label>
+        <label for="f-syrnyky" class="btn b-syrnyky">Сирники</label>
+        <label for="f-tistechko" class="btn b-tistechko">Тістечко</label>
+        <label for="f-tort" class="btn b-tort">Торт</label>
+        <label for="f-all" class="btn b-all">Скинути фільтр</label>
+      </aside>
+    </div>
+
+    <footer>
+      <p class="contacts">Контакти: <a href="mailto:tortik@smakota.ua"><span class="mail">✉</span>tortik@smakota.ua</a></p>
+      <p class="copy">© 2019 Smakota</p>
+    </footer>
+  </div>
+
+</body>
+</html>
